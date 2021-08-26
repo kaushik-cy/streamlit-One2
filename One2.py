@@ -3,7 +3,7 @@ import s_calculate as sl
 import s_plot as sp
 
 
-st.set_page_config(layout = 'wide')
+st.set_page_config(layout = 'centered')
 
 st.title('One2')
 

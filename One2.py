@@ -27,7 +27,7 @@ st.title(user_search)
 try:
 	data = sl.download_data(stock = user_search)
 	data_i = sl.all_indicators(data)
-
+	st.dataframe(data_i)
 	mpl_fig_01 = sp.plot_01(data_i)
 	st.pyplot(mpl_fig_01)
 	pass
